@@ -1,0 +1,17 @@
+{
+  "name": "tasks-hacer",
+  "version": "1.0.0",
+  "description": "App de consola avanzada con node para realizar tasks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jafet Ignacio  Quesada Siles",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^9.2.8",
+    "uuid": "^9.0.0"
+  }
+}
