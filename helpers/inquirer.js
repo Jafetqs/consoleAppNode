@@ -115,7 +115,7 @@ const checkList = async(tasks = []) => {
         return {
             value: task.id,
             name: `${idx} ${task.desc}`,
-            checked: true
+            checked: (task.completedIn) ? true : false
         }
     });
     const pregunta = [
